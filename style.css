@@ -1,0 +1,40 @@
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 14px 22px;
+  text-align: center;
+}
+
+.navbar a:nth-child(1) { background-color: #e74c3c; } /* red */
+.navbar a:nth-child(2) { background-color: #f39c12; } /* orange */
+.navbar a:nth-child(3) { background-color: #27ae60; } /* green */
+.navbar a:nth-child(4) { background-color: #2980b9; } /* blue */
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+.container > h2 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+
+.container p {
+  color: red;
+}
+
+
+h2 + p {
+  border: 2px solid green;
+  padding: 8px;
+}
